@@ -77,14 +77,23 @@ struct ContentView: View {
     
     func guess(){
         // Code to be run when user submits their guess
+        // Must check if the user's guess is correct or wrong
+        // Must update the "message" state variable to display to the user if their guess was right or wrong
+
     }
 
     func nextQuestion(){
         // Code to be run when user clicks to go to next question
+        // Must move to the next question
+        // Must update the "message" state variable to display the next question to the user
+        // If there are no more questions left, then must update the "message" state variable to let the user know the game is over
+
     }
 
     func startGame(){
         // Code to be run a the start of the game (AKA When the user selects and submits the multiple of their choice)
+        // Must create a loop that adds an instance of the Question struct (question & answer) each time through the loop (HINT: The "multiple" state variable should be used when setting the value for "question" and "answer" for each Question instance)
+        // Must update the "message" state variable to display the first question to the user
         
     }
 }
